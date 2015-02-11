@@ -7,6 +7,6 @@ class ArticlesControllerTest < ActionController::TestCase
   test "should get new" do
     get :new
 #    get welcome_index_path
-    assert_template 'articles/newi'
+    assert_template 'articles/new'
   end
 end
